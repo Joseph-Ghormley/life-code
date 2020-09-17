@@ -1,0 +1,8 @@
+package project1;
+
+
+public class InvalidSequenceException extends Exception{
+    InvalidSequenceException() {
+        super("The password cannot contain more than two of the same character in sequence.");
+    }
+}
