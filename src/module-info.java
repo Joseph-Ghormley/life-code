@@ -1,6 +1,8 @@
-module untitled {
+module Assignment5
+{
     requires javafx.fxml;
     requires javafx.controls;
     requires junit;
-    opens src;
+    requires java.desktop;
+    opens pkg;
 }
